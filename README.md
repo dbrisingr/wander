@@ -11,32 +11,40 @@ Features include
 
 ### Screenshots
 
+Main Screen
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-02.png "Screenshot 1")
 
+Exploration Mode (free)
+You can click at any point on the map and wander will calculate the fastest route for you
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-20.png "Screenshot 2")
 
+Journey Screen (Map)
+You can start the timer here, a route will be shown to you once you start
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-36.png "Screenshot 3")
 
-![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-44.png "Screenshot 4")
+With the timer started
+![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-14.png "Screenshot 4")
 
+Journey Screen (Details)
+Some details about the location can be seen here
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-08.png "Screenshot 5")
 
-![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-14.png "Screenshot 6")
+Live Search
+![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-42.png "Screenshot 6")
 
-![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-42.png "Screenshot 7")
-
-![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-57.png "Screenshot 8")
+User Login / Register Screen
+![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-57.png "Screenshot 7")
 
 
 ### Version
-3.0.2
+1.0
 
 ### Tech
 
 wander uses the following libraries:
 
-* [Parse](http://www.parse.com) - HTML enhanced for web apps!
-* [Google Maps v2](https://developers.google.com/maps/documentation/android/) - awesome web-based text editor
+* [Parse](http://www.parse.com) - for user registration
+* [Google Maps v2](https://developers.google.com/maps/documentation/android/) - the library the whole app is based upon
 
 
 
