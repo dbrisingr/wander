@@ -7,15 +7,16 @@ wander is a location-based Android game / application. wander encourages you to 
 
 Features include
   - User Registration / Sign up
+  - Locations sorted by popularity
   - Leaderboards
-  - Customise / point to any location and find shortest route
+  - Customise / point to any location and find the shortest route to it
 
 ### Screenshots
 
 Main Screen
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-02.png "Screenshot 1")
 
-Exploration Mode (free)
+Exploration Mode (aka, "Free Mode")
 - You can click at any point on the map and wander will calculate the fastest route for you
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-20.png "Screenshot 2")
 
