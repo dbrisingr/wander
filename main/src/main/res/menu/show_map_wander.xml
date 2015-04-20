@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.brisingrv2.ShowMapActivity" >
+
+    <item
+        android:id="@+id/action_relocate"
+        android:title="@string/get_directions"
+        android:icon="@drawable/ic_action_locate"
+        android:showAsAction="ifRoom"/>
+    
+
+</menu>

@@ -1,6 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">wander</string>
 
+    <string name="app_name">wander</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="input_instruction">Enter a text</string>
+    <string name="wander">wander</string>
+    <string name="title_activity_show_message">Rewards</string>
+    <string name="action_search">Search</string>
+    <string name="show_message">null</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="setting_description">Some of the settings can be unlocked by purchasing the Premium package</string>
+    <string name="lucky_description">try to guess the lucky word</string>
+    <string name="popular_locations">Top 3 most popular locations</string>
+    <string name="title_activity_show_map">Journey</string>
+    <string name="all_locations">All locations</string>
+    <string name="free">free</string>
+    <string name="get_directions">Locate!</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="title_activity_settings_fragment">SettingsFragment</string>
+    <string name="username">Username: </string>
+    <string name="pass">Password: </string>
+    <string name="map_dialog_message">Are You Ready?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_tabs_fragment">TabsFragment</string>
+    <string name="time">00:00:00</string>
+    <string name="distance">Initial Distance</string>
+    <string name="estimated_time">Estimated Time</string>
+    <string name="time_elapsed">Time elapsed</string>
+    <string name="target_time">Current Personal Record</string>
+    <string name="showmap_dialog_message">You will lose progress of the current Journey. Are you sure?</string>
+    <string name="destination_name">Destination Name</string>
+    <string name="search_locations">Location Search</string>
+    <string name="title_activity_search_location">SearchLocationActivity</string>
+    <string name="free_dialog_message">You will lose any unsaved paths. Are you sure?</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="app_id">906693443404</string>
+    <string name="empty">-.-</string>
+    <string name="statistics_title">Overall Performance</string>
+    <string name="title_activity_free">FreeActivity</string>
+    <string name="action_locate">Locate!</string>
+
 </resources>

@@ -1,16 +1,130 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:paddingBottom="@dimen/activity_vertical_margin"
-                tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="?android:attr/actionBarSize"
+    tools:context="com.example.brisingrv2.MainActivity$PlaceholderFragment" >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_free_wander_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listview"
+        android:focusable="false" >
+
+        <Button
+            android:id="@+id/free_button"
+            style="@style/Buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:drawableTop="@drawable/ic_action_star"
+            android:onClick="startMapActivity"
+            android:text="@string/free" />
+
+        <Button
+            android:id="@+id/wander_button"
+            style="@style/Buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:drawableTop="@drawable/ic_action_star"
+            android:onClick="startMapActivity"
+            android:text="@string/wander" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/ll_free_wander_buttons"
+        android:visibility="invisible" />
 
     <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:id="@+id/textView1"
+        style="@style/ForText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/View1"
+        android:gravity="center"
+        android:text="@string/popular_locations" />
+
+    <Button
+        android:id="@+id/button_location1"
+        style="@style/Buttons"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:onClick="startMapActivity"
+        android:text="@string/l1" />
+
+    <Button
+        android:id="@+id/button_location2"
+        style="@style/Buttons"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_location1"
+        android:onClick="startMapActivity"
+        android:text="@string/l2" />
+
+    <Button
+        android:id="@+id/button_location3"
+        style="@style/Buttons"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_location2"
+        android:onClick="startMapActivity"
+        android:text="@string/l3" />
+
+    <View
+        android:id="@+id/View2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_location3"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/view_all_locations"
+        style="@style/ForText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/View2"
+        android:gravity="center"
+        android:text="@string/all_locations" />
+
+    <LinearLayout
+        android:id="@+id/ll_for_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/view_all_locations"
+        android:orientation="vertical" >
+    </LinearLayout>
 
 </RelativeLayout>

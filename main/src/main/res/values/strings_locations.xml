@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="l1">Tate Modern</string>
+    <string name="l2">Science Museum</string>
+    <string name="l3">Hyde Park</string>
+    <string name="latest_time">Latest Time</string>
+    <string name="fastest_time">Fastest Time</string>
+
+</resources>

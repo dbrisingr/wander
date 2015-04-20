@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ForTextTitle" parent="@style/Theme.Actionbar_settings">
+        <item name="android:textColor">#CC6600</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ForText" parent="@style/Theme.Actionbar_settings">
+        <item name="android:textColor">#CC6600</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="ForTextBold" parent="@style/Theme.Actionbar_settings">
+        <item name="android:textColor">#CC6600</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="ForTextScroll" parent="@style/Theme.Actionbar_settings">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="ForTextDetails" parent="@style/Theme.Actionbar_settings">
+        <item name="android:textColor">#CC6600</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="ForChrono" parent="@style/Theme.Actionbar_settings">
+        <item name="android:textColor">#CC6600</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Buttons" parent="@style/Theme.Actionbar_settings">
+        <item name="android:textColor">#CC6600</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_settings</item>
+    </style>
+
+    <style name="List" parent="@style/Theme.Actionbar_settings">
+        <item name="android:textColor">#CC6600</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/list_settings</item>
+    </style>
+
+</resources>

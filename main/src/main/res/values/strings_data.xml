@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="latest_time_file">com.example.brisingrv2.LATEST_TIME_</string>
+    <string name="first_time_login"/>
+    
+</resources>
