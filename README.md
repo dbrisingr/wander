@@ -26,7 +26,7 @@ With the timer started
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-14.png "Screenshot 4")
 
 Journey Screen (Details)
-Some details about the location can be seen here
+- Some details about the location can be seen here
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-28-08.png "Screenshot 5")
 
 Live Search
