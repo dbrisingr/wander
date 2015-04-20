@@ -15,11 +15,11 @@ Main Screen
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-02.png "Screenshot 1")
 
 Exploration Mode (free)
-You can click at any point on the map and wander will calculate the fastest route for you
+- You can click at any point on the map and wander will calculate the fastest route for you
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-20.png "Screenshot 2")
 
 Journey Screen (Map)
-You can start the timer here, a route will be shown to you once you start
+- You can start the timer here, a route will be shown to you once you start
 ![Alt text](https://github.com/dbrisingr/wander/blob/master/main/screenshots/Screenshot_2015-04-20-13-27-36.png "Screenshot 3")
 
 With the timer started
