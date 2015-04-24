@@ -25,7 +25,6 @@ import android.widget.SearchView.OnQueryTextListener;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.Toast;
-
 import com.parse.Parse;
 
 public class MainActivity extends Activity {
