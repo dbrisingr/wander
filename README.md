@@ -1,6 +1,6 @@
 # wander
 
-[note that wander is a work in progress, and that this is the public version of the repository]
+[note that wander is a work in progress, and that this is the public version of the repository so updates may come in batches]
 
 
 wander is a location-based Android game / application. wander encourages you to explore new places where you otherwise may not go, all the while making it exciting for the players. It is able to calculate the fastest route to any location, as well as time your journey from your starting location. It features a leaderboards system so you can compare scores / times of particular locations with your friends.
